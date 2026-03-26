@@ -214,8 +214,8 @@ def process_page(img, cfg):
     return display_img, results
 
 # --- MAIN APP ---
-st.set_page_config(layout="wide", page_title="OMR Web App")
-st.title("OMR Scanner & Configurator")
+st.set_page_config(layout="wide", page_title="MC Mark Easy")
+st.title("MC Mark Easy")
 
 # Session State
 if 'page_index' not in st.session_state: st.session_state.page_index = 0
