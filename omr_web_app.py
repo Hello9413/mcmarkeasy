@@ -214,7 +214,7 @@ def process_page(img, cfg):
     return display_img, results
 
 # --- MAIN APP ---
-st.set_page_config(layout="wide", page_title="MC Mark Easy")
+st.set_page_config(layout="wide", page_title="MC Mark Easy - OMR Grading Tool")
 st.title("MC Mark Easy")
 
 # Session State
