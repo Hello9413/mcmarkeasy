@@ -215,7 +215,7 @@ def process_page(img, cfg):
 
 # --- MAIN APP ---
 st.set_page_config(layout="wide", page_title="MC Mark Easy - OMR Grading Tool")
-st.title("MC Mark Easy")
+st.title("MC Mark Easy - OMR Grading Tool")
 
 # Session State
 if 'page_index' not in st.session_state: st.session_state.page_index = 0
